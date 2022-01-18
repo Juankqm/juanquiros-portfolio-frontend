@@ -1,10 +1,15 @@
 import Home from '../Components/Home/Home'
+import AboutMe from '../Components/AboutMe/AboutMe'
 //import Resume from '../Components/Resume/Resume'
 
 export const TOTAL_SCREENS =  [
     {
         screen_name: "Home",
         component: Home
+    },
+    {
+        screen_name: "AboutMe",
+        component: AboutMe
     }
 ]
 
