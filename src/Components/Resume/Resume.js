@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/scrollService";
-import Animation from "../../utilities/Animation";
+import Animations from "../../utilities/Animations";
 import "./Resume.css";
 
 const Resume = (props) => {
@@ -11,9 +11,9 @@ const Resume = (props) => {
 
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeInScreen !== props.id) return;
-
-    Animation.animations.fadeInScreen(props.id);
+    Animations.animations.fadeInScreen(props.id);
   };
+  
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
@@ -183,7 +183,7 @@ const Resume = (props) => {
     /* Interests */
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading="Teaching"
+        heading="Soccer"
         description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
       />
       <ResumeHeading
@@ -246,7 +246,7 @@ const Resume = (props) => {
   }, [fadeInSubscription]);
 
   return (
-    <div className="resume-container screen-container " id={props.id || ""}>
+    <div className="resume-container screen-container fade-in" id={props.id || ""}>
       <div className="resume-content">
         <ScreenHeading title={"Resume"} subHeading={"My formal Bio Details"} />
         <div className="resume-card">
