@@ -9,7 +9,6 @@ export default class ScrollService {
   static currentScreenBroadcaster = new Subject();
   static currentScreenFadeIn = new Subject();
 
-  //lets have a constructor here and add the scroll event to window
   constructor() {
     /* ADD SCROLL EVENT TO WINDOW */
     window.addEventListener("scroll", this.checkCurrentScreenUnderViewport);
