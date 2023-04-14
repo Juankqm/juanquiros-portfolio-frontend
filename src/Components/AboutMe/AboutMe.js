@@ -14,14 +14,14 @@ const AboutMe = (props) => {
 
   const SCREEN_CONST = {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus a ex eu vulputate. Ut arcu magna, ultricies ac pulvinar ac, iaculis vitae urna. Pellentesque nec nisl ac velit rhoncus varius. Cras porta feugiat dignissim. Nulla a fringilla magna. Aliquam luctus augue quis ligula suscipit sodales. In hendrerit ipsum vitae.",
+      "Graduated Systems Engineer with 2+ years of work experience currently working as mid programmer analyst developing apps with Oracle full stack such as APEX and Pl/SQL. Passionate about programming and self-taught learner.",
     highlights: {
       bullets: [
         "Systems Engineer",
         "Junior Front End Developer",
         "HTML, CSS, JavaScript, ReactJs",
-        "Junior Oracle PL/SQL Developer",
-        "Junior Oracle APEX Developer",
+        "Mid Oracle PL/SQL Developer",
+        "Mid Oracle APEX Developer",
       ],
       heading: "Here are a Few Highlights:",
     },

@@ -65,22 +65,22 @@ const Resume = (props) => {
       title: "Personal Portfolio WebSite",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sit amet ex ut elementum. In hac habitasse platea dictums",
-      subHeading: "Technologies Used: React Js, Bootstrap",
+        "This is one of my biggest projects where I have implemented all my knowledge adquired regards JavaScript and ReactJs as library. I am still working on it every day I learn something new.",
+      subHeading: "Technologies Used: JavaScript, HTML, CSS and React Js",
     },
     {
       title: "Coronavirus Cases Tracker",
       duration: { fromDate: "2019", toDate: "2019" },
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sit amet ex ut elementum. In hac habitasse platea dictums",
-      subHeading: "Technologies Used: React Js, Bootstrap",
+        "In this personal project I implemented a public API with data about coronavirus worldwide statistics that allowed me to show realtime data.",
+      subHeading: "Technologies Used: JavaScript, HTML, CSS and React Js",
     },
     {
       title: "STEAM Interactive Books",
       duration: { fromDate: "2019", toDate: "2020" },
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sit amet ex ut elementum. In hac habitasse platea dictums",
-      subHeading: "Technologies Used: React Js, Bootstrap",
+        "I had de opportunity to work with a programmers team for my college community service creating a project based on the company's requirements.",
+      subHeading: "Technologies Used: JavaScript, HTML, CSS and React Js",
     },
   ];
   const resumeDetails = [
@@ -115,16 +115,30 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Legadmi Consulting & System"}
-          subHeading={"JUNIOR ORACLE DEVELOPER"}
-          fromDate={"2021"}
-          toDate={"present"}
+          heading={"CR ATESA SOFTWARE"}
+          subHeading={"MID ORACLE DEVELOPER"}
+          fromDate={"2023 "}
+          toDate={" present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+            In my current role as mid programmer analyst at CR ATESA Software, I have been 
+            responsible for analyzing, designing, programming, and testing software solutions. 
+            Through these experiences, I have developed a strong understanding of the entire software development lifecycle.
+          </span>
+        </div>
+        
+      </div>
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"Legadmi Consulting & System"}
+          subHeading={"JUNIOR ORACLE DEVELOPER"}
+          fromDate={"2021 "}
+          toDate={" 2023"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+          Develop cloud hosted apps with Oracle stack such as APEX and Pl/SQL.
           </span>
         </div>
         
@@ -133,14 +147,12 @@ const Resume = (props) => {
         <ResumeHeading
           heading={"Tek Experts"}
           subHeading={"AZURE API MANAGEMENT SUPPORT ENGINEER"}
-          fromDate={"2021"}
-          toDate={"May,2021"}
+          fromDate={"2021 "}
+          toDate={" 2021"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+              Be part of a break and fix team providing support for Microsoft Azure API Management.
           </span>
         </div>
         
